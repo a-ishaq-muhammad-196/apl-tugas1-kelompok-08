@@ -1,1 +1,49 @@
+1. Konteks Bisnis (Business Context)
 
+KALAM UMI digunakan untuk mendukung proses pembelajaran. Pada layanan Assignment & Assessment, proses bisnis yang dianalisis berfokus
+pada aktivitas pemberian tugas dan penilaian mahasiswa.
+- Tujuan         : mempermudah proses pengumpulan, penilaian, dan pemantauan hasil tugas.
+- Pengguna utama : dosen dan mahasiswa.
+- Proses bisnis  : dosen memberikan tugas, mahasiswa mengumpulkan tugas, dosen memeriksa pekerjaan, kemudian hasil penilaian disampaikan 
+                   kepada mahasiswa jika fitur tersebut tersedia.
+- Manfaat        : proses pembelajaran menjadi lebih terstruktur dan dokumentasi tugas lebih mudah dikelola.
+
+2. Konteks Data (Data Context)
+
+Konteks data menjelaskan informasi yang dibutuhkan dan dikelola oleh layanan Assignment & Assessment.
+- Data Pengguna berfungsi Mengidentifikasi dosen dan mahasiswa. |
+- Data Mata Kuliah berfungsi Menghubungkan tugas dengan mata kuliah tertentu. |
+- Data Tugas berfungsi Menyimpan judul, deskripsi, dan tenggat pengumpulan tugas. |
+- Data Pengumpulan berfungsi Mencatat berkas atau jawaban yang dikirim mahasiswa. |
+- Data Penilaian berfungsi Menyimpan nilai dan hasil evaluasi tugas. |
+- Data Umpan Balik berfungsi Menyimpan komentar atau koreksi dari dosen, jika tersedia. |
+
+Hubungan data tersebut harus dirancang agar konsisten dan hanya dapat diakses oleh pengguna yang berwenang.
+
+3. Konteks Aplikasi (Application Context)
+
+Konteks aplikasi menjelaskan aplikasi atau modul yang mendukung proses tugas dan penilaian.
+- Modul autentikasi	berfungsi Mengatur proses login dan identitas pengguna.
+- Modul mata kuliah berfungsi	Menampilkan mata kuliah yang diikuti pengguna.
+- Modul tugas	berfungsi Menampilkan dan mengelola informasi tugas.
+- Modul pengumpulan tugas berfungsi	Mendukung pengiriman jawaban atau berkas tugas.
+- Modul penilaian	berfungsi Mendukung dosen dalam memeriksa dan memberikan nilai.
+- Modul umpan balik	berfungsi Mendukung penyampaian komentar dosen kepada mahasiswa, jika tersedia.
+
+Modul-modul tersebut merupakan pemetaan konseptual untuk analisis arsitektur, bukan daftar modul internal KALAM UMI yang telah diverifikasi.
+
+4. Konteks Teknologi (Technology Context)
+
+Konteks teknologi menjelaskan teknologi dan infrastruktur yang diperlukan agar layanan dapat digunakan.
+- Web browser yang dimana	Digunakan dosen dan mahasiswa untuk mengakses KALAM UMI.
+- Jaringan internet digunakan untuk	Menghubungkan pengguna dengan layanan pembelajaran daring.
+- Web server	Memproses permintaan dan menyediakan layanan website.
+- Database server	berfungsi Menyimpan data pengguna, tugas, pengumpulan, dan penilaian.
+- Sistem keamanan	berfungsi Melindungi akun, berkas tugas, dan informasi nilai.
+- Infrastruktur pencadangan	berfungs untuk Mendukung pemulihan data apabila terjadi gangguan.
+
+Teknologi server, basis data, dan mekanisme keamanan yang benar-benar digunakan KALAM UMI perlu dikonfirmasi kepada pengelola sistem.
+
+jadi saya menarik kesimpulan bahwa Berdasarkan empat konteks arsitektur, layanan Assignment & Assessment pada KALAM UMI dapat dianalisis melalui 
+proses bisnis tugas dan penilaian, data yang dikelola, aplikasi yang mendukung proses tersebut, serta teknologi yang diperlukan untuk menjalankannya.
+Keempat konteks saling berkaitan agar layanan berjalan secara efektif, aman, dan andal.
