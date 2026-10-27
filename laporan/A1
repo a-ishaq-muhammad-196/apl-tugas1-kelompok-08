@@ -11,12 +11,12 @@ pada aktivitas pemberian tugas dan penilaian mahasiswa.
 2. Konteks Data (Data Context)
 
 Konteks data menjelaskan informasi yang dibutuhkan dan dikelola oleh layanan Assignment & Assessment.
-- Data Pengguna berfungsi Mengidentifikasi dosen dan mahasiswa. |
-- Data Mata Kuliah berfungsi Menghubungkan tugas dengan mata kuliah tertentu. |
-- Data Tugas berfungsi Menyimpan judul, deskripsi, dan tenggat pengumpulan tugas. |
-- Data Pengumpulan berfungsi Mencatat berkas atau jawaban yang dikirim mahasiswa. |
-- Data Penilaian berfungsi Menyimpan nilai dan hasil evaluasi tugas. |
-- Data Umpan Balik berfungsi Menyimpan komentar atau koreksi dari dosen, jika tersedia. |
+- Data Pengguna berfungsi Mengidentifikasi dosen dan mahasiswa. 
+- Data Mata Kuliah berfungsi Menghubungkan tugas dengan mata kuliah tertentu. 
+- Data Tugas berfungsi Menyimpan judul, deskripsi, dan tenggat pengumpulan tugas. 
+- Data Pengumpulan berfungsi Mencatat berkas atau jawaban yang dikirim mahasiswa. 
+- Data Penilaian berfungsi Menyimpan nilai dan hasil evaluasi tugas. 
+- Data Umpan Balik berfungsi Menyimpan komentar atau koreksi dari dosen, jika tersedia. 
 
 Hubungan data tersebut harus dirancang agar konsisten dan hanya dapat diakses oleh pengguna yang berwenang.
 
