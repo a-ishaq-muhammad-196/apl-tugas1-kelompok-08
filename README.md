@@ -52,7 +52,7 @@ Tugas Kelompok 1 APL - Kelompok 08
 | A3 | Batasan sistem | Belum selesai |
 | A4 | Kebutuhan signifikan (ASR) | Belum selesai |
 | A5 | Keputusan arsitektur, ADR, dan rencana komunikasi | Belum selesai |
-| B1 | Identifikasi dan klasifikasi karakteristik arsitektur | Perlu revisi |
+| B1 | Identifikasi dan klasifikasi karakteristik arsitektur | selesai |
 | B2 | Atribut kualitas yang terukur | Sedang dikerjakan |
 | B3 | Tiga struktur desain | Belum selesai |
 | B4 | Pemetaan ke ISO/IEC 25010 | Belum selesai |
