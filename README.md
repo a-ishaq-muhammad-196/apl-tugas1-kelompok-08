@@ -20,7 +20,7 @@ Tugas Kelompok 1 APL - Kelompok 08
 | No. | Nama Anggota | NIM | Tanggung Jawab |
 |---|---|---|---|
 | 1 | A. Ishaq Muhammad | 13020240196 | A1-B1-B2  |
-| 2 | [Nama anggota 2] | [NIM] |  |
+| 2 | Ilham Saputra | 13020240359 |  |
 | 3 | [Nama anggota 3] | [NIM] |  |
 | 4 | [Nama anggota 4] | [NIM] | |
 
